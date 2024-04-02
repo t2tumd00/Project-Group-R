@@ -4,6 +4,10 @@ const toolsFurnitureProducts = [
     { name: 'Product 2', price: 150, image: 'img/blue bag.jpg'},
     { name: 'Product 3', price: 200, image: 'img/blue bag.jpg' },
     { name: 'Product 4', price: 250, image: 'img/blue bag.jpg' },
+    { name: 'Product 4', price: 250, image: 'img/blue bag.jpg' },
+    { name: 'Product 4', price: 250, image: 'img/blue bag.jpg' },
+    { name: 'Product 4', price: 250, image: 'img/blue bag.jpg' },
+    { name: 'Product 4', price: 250, image: 'img/blue bag.jpg' },
     // Add more products as needed
 ];
 
