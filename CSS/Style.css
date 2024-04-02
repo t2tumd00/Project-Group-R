@@ -101,7 +101,7 @@
     left: 0;
     width: 100%;
     height: 110%;
-    background-image: url('/Project-Group-R/img/Ourbg.png');
+    background-image: url('/img/Ourbg.png');
     background-size: cover;
     background-position: center;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
@@ -133,4 +133,7 @@ h1.display-3 {
 #headingTopic{
     text-align: center !important;
     margin-top: 90px;
+}
+h1.text-center {
+    margin-top: 82px;
 }
