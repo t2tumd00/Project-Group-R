@@ -61,6 +61,7 @@
   background-repeat: no-repeat;
   line-height: 1.2rem;
   -webkit-mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
+  mask:radial-gradient(circle .8rem at 2px 50%,#0000 98%,#000)0 0/100% 2.4rem;
 }
 
 .card_content {
