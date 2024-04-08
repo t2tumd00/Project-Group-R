@@ -5,6 +5,6 @@ CREATE TABLE users (
     password VARCHAR(255) NOT NULL,
 );
 
-INSERT INTO users (name, email, password, confirm_password) VALUES 
+INSERT INTO users (name, email, password) VALUES 
 ('John Doe', 'john@example.com', 'password123'),
 ('Jane Doe', 'jane@example.com', 'password123');

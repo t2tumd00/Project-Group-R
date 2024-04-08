@@ -15,6 +15,7 @@ router.post('/users/login', (req, res) => {
 }
 )
 
+
 router.get('/users/register', (req, res) => {
     res.render('register');
 })

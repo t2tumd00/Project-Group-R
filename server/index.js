@@ -2,6 +2,7 @@ const express = require('express');
 const cors = require('cors');
 const path = require('path');
 const userAuth = require('./routes/userRoutes'); 
+const productRoutes = require('./routes/productRoutes');
 const app = express();
 
 // Set the view engine to ejs
@@ -19,6 +20,7 @@ app.use(express.static('public'))
 
 // Routes
 app.use('/', userAuth);
+app.use('/products', productRoutes);
 
 // server the static files
 app.use(express.static(path.join(__dirname, '../public')));
